@@ -1,0 +1,19 @@
+.container-fluid{
+    width: 1000px;
+}
+
+#conteúdo{
+    scroll-behavior: smooth;
+}
+
+.justified{
+    text-align: justify;
+    text-align-last: center;
+}
+
+/* trocar o tamanho do triangulinho do dropdown */
+.dropdown-toggle::after{
+    border-top: .5em solid;
+    border-right: .5em solid transparent;
+    border-left: .5em solid transparent;
+}
