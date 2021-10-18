@@ -11,6 +11,10 @@
     text-align-last: center;
 }
 
+p{
+    word-wrap: break-word;
+}
+
 /* trocar o tamanho do triangulinho do dropdown */
 .dropdown-toggle::after{
     border-top: .5em solid;
