@@ -11,6 +11,35 @@
     text-align-last: center;
 }
 
+#aulas{
+    background-color: rgb(59, 160, 255);
+}
+
+#aulas > h2, #aulas > h3{
+    color: rgb(20, 56, 90);
+}
+
+
+#escritos{
+    background-color: orange;
+}
+
+#escritos > h2, #escritos > h3{
+    color: rgb(73, 48, 0);
+}
+
+#dados{
+    background-color: rgb(255, 0, 157);
+}
+
+#dados > h2, #dados > h3{
+    color: rgb(77, 0, 47);
+}
+
+#dados > * > * > .item {
+    background-color: rgb(255, 197, 233);
+}
+
 p{
     word-wrap: break-word;
 }
