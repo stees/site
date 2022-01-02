@@ -11,6 +11,7 @@
     text-align-last: center;
 }
 
+/* aulas */
 #aulas{
     background-color: rgb(59, 160, 255);
 }
@@ -19,6 +20,15 @@
     color: rgb(20, 56, 90);
 }
 
+#aulas > * > * > .item {
+    background-color: rgb(168, 213, 255);
+}
+
+#aulas > * > * > .item > h4 {
+    color: rgb(20, 56, 90);
+}
+
+/* escritos */
 
 #escritos{
     background-color: orange;
@@ -28,6 +38,15 @@
     color: rgb(73, 48, 0);
 }
 
+#escritos > * > * > .item {
+    background-color: rgb(255, 230, 183);
+}
+
+#escritos > * > * > .item > h4 {
+    color: rgb(73, 48, 0);
+}
+
+/* dados */
 #dados{
     background-color: rgb(255, 0, 157);
 }
@@ -40,8 +59,13 @@
     background-color: rgb(255, 197, 233);
 }
 
+#dados > * > * > .item > h4 {
+    color: rgb(77, 0, 47);
+}
+
 p{
     word-wrap: break-word;
+    margin: 0;
 }
 
 /* trocar o tamanho do triangulinho do dropdown */
